@@ -1,0 +1,1639 @@
+{
+	"id": "08da5e32-36ca-43f8-8091-fffc3f577e2b",
+	"name": "sample",
+	"nodes": [
+		{
+			"id": "08da5e32-3711-4636-8b03-9145ee348284",
+			"name": "notepad",
+			"nodes": [],
+			"locators": [
+				{
+					"id": "08da5e32-3722-4524-8b66-624dff9309d3",
+					"name": "document_15",
+					"filePath": "a4afde58-3485-4f8d-be18-385acae4da0d.png",
+					"imageFilePath": "",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "notepad"
+						},
+						"filePath": {
+							"value": "notepad.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Notepad"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "*"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "15",
+												"excluded": true
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "document"
+											},
+											"isDirectChild": {
+												"value": "True",
+												"excluded": true
+											},
+											"className": {
+												"value": "Edit",
+												"excluded": true
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "",
+												"excluded": true
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": "08da5e32-36ce-4bea-8b2a-7b8d8548c1d4",
+			"name": "bing",
+			"nodes": [],
+			"locators": [
+				{
+					"id": "08da5e32-36ef-48af-8e2b-8e6aec6b1ff1",
+					"name": "search_sb_form_q",
+					"filePath": "24e88268-b4b5-4671-a07b-a400e1cbc454.png",
+					"imageFilePath": "",
+					"content": {
+						"automationType": "Edge",
+						"processName": {
+							"value": "msedge"
+						},
+						"filePath": {
+							"value": "msedge.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "Bing",
+										"excluded": true
+									},
+									"url": {
+										"value": "https://*bing.com/",
+										"excluded": false
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "INPUT"
+											},
+											"id": {
+												"value": "sb_form_q"
+											},
+											"type": {
+												"value": "search",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "sb_form",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "1",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>main>form>input",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"name": {
+												"value": "q"
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						]
+					}
+				},
+				{
+					"id": "08da5e32-3701-458d-87c6-cbfded6e9b52",
+					"name": "svg",
+					"filePath": "c5088e07-79bf-427c-99de-a0eb2dfb1893.png",
+					"imageFilePath": "",
+					"content": {
+						"automationType": "Edge",
+						"processName": {
+							"value": "msedge"
+						},
+						"filePath": {
+							"value": "msedge.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "Bing",
+										"excluded": true
+									},
+									"url": {
+										"value": "https://*bing.com/",
+										"excluded": false
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "svg"
+											},
+											"ancestorId": {
+												"value": "search_icon"
+											},
+											"isLeaf": {
+												"value": "0",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>main>form>label>svg",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						]
+					}
+				},
+				{
+					"id": "08da5e32-370e-4c8c-88c6-02499d29f959",
+					"name": "a_search_result",
+					"filePath": "91974465-c226-44f1-b3a5-15909667afe6.png",
+					"imageFilePath": "",
+					"content": {
+						"automationType": "Edge",
+						"processName": {
+							"value": "msedge"
+						},
+						"filePath": {
+							"value": "msedge.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"role": {
+										"value": "window"
+									},
+									"title": {
+										"value": "* - Search",
+										"excluded": true
+									},
+									"url": {
+										"value": "https://*bing.com/search?*",
+										"excluded": false
+									},
+									"className": {
+										"value": "Chrome_WidgetWin_1"
+									},
+									"controlMetaType": "Tab"
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "A"
+											},
+											"ancestorId": {
+												"value": "b_results"
+											},
+											"isLeaf": {
+												"value": "1",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>main>ol>li h2>a",
+												"excluded": false
+											},
+											"sInfo": {
+												"value": "clicknium Â· PyPI",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"href": {
+												"value": "https://www.bing.com/ck/a?!&&p=5f1301e217338228df140238b3d2a021d661cc8b7b0671779127e6b22ce8a549JmltdHM9MTY1NTYwMDIxOCZpZ3VpZD02MjhhYTEwZi1kM2I2LTQ2MmUtYjI5NS1iNDNmOTEwNWU3NWImaW5zaWQ9NTEyOQ&ptn=3&fclid=b8a1677b-ef6a-11ec-88d5-f257ac50a32f&u=a1aHR0cHM6Ly9weXBpLm9yZy9wcm9qZWN0L2NsaWNrbml1bS8&ntb=1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": "dbd4e841-618e-4a0e-8cd7-a21ac5dce61f",
+			"name": "aliworkbench",
+			"nodes": [],
+			"locators": [
+				{
+					"id": "af2cdfe0-913d-4499-ad5f-afc7245e539e",
+					"name": "username",
+					"filePath": "0b7deb02-a60b-4131-ac50-9bc7a09e0eea.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowIcon"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "千牛登录"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "",
+												"excluded": true
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "pane"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "Qt5152QWindowIcon"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "千牛工作台"
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "",
+														"excluded": true
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "pane"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Qt5152QWindowIcon"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "登录"
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "",
+																"excluded": true
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "pane"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "Qt5152QWindowIcon"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "千牛工作台"
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "pane"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "Qt5152QWindowIcon"
+																	},
+																	"controlMetaType": "Uia",
+																	"name": {
+																		"value": "千牛工作台"
+																	},
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "",
+																				"excluded": true
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "window"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "AuthSDKMainUI"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "",
+																				"excluded": true
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "",
+																						"excluded": true
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "window"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "",
+																						"excluded": true
+																					},
+																					"controlMetaType": "Uia",
+																					"name": {
+																						"value": "MainUIContainer"
+																					},
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "",
+																								"excluded": true
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "window"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "",
+																								"excluded": true
+																							},
+																							"controlMetaType": "Uia",
+																							"name": {
+																								"value": "AccountContainer"
+																							},
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						},
+																						"childControls": [
+																							{
+																								"identifier": {
+																									"automationId": {
+																										"value": "",
+																										"excluded": true
+																									},
+																									"isPassword": {
+																										"value": "False",
+																										"excluded": true
+																									},
+																									"orientation": {
+																										"value": "None",
+																										"excluded": true
+																									},
+																									"role": {
+																										"value": "edit"
+																									},
+																									"isDirectChild": {
+																										"value": "True"
+																									},
+																									"className": {
+																										"value": "",
+																										"excluded": true
+																									},
+																									"controlMetaType": "Uia",
+																									"index": {
+																										"value": "1",
+																										"excluded": true
+																									}
+																								}
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": "480d3359-0dc7-4cb9-99f3-0419b4626202",
+					"name": "password",
+					"filePath": "06ed7a62-ec67-45e1-96f3-eeef5cc6f8da.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowIcon"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "千牛登录"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "",
+												"excluded": true
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "pane"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "Qt5152QWindowIcon"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "千牛工作台"
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "",
+														"excluded": true
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "pane"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Qt5152QWindowIcon"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "登录"
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "",
+																"excluded": true
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "pane"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "Qt5152QWindowIcon"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "千牛工作台"
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "pane"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "Qt5152QWindowIcon"
+																	},
+																	"controlMetaType": "Uia",
+																	"name": {
+																		"value": "千牛工作台"
+																	},
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "",
+																				"excluded": true
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "window"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "AuthSDKMainUI"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "",
+																				"excluded": true
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "",
+																						"excluded": true
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "window"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "",
+																						"excluded": true
+																					},
+																					"controlMetaType": "Uia",
+																					"name": {
+																						"value": "MainUIContainer"
+																					},
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "",
+																								"excluded": true
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "window"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "",
+																								"excluded": true
+																							},
+																							"controlMetaType": "Uia",
+																							"name": {
+																								"value": "PasswordContainer"
+																							},
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						},
+																						"childControls": [
+																							{
+																								"identifier": {
+																									"automationId": {
+																										"value": "",
+																										"excluded": true
+																									},
+																									"isPassword": {
+																										"value": "True"
+																									},
+																									"orientation": {
+																										"value": "None",
+																										"excluded": true
+																									},
+																									"role": {
+																										"value": "edit"
+																									},
+																									"isDirectChild": {
+																										"value": "True"
+																									},
+																									"className": {
+																										"value": "",
+																										"excluded": true
+																									},
+																									"controlMetaType": "Uia",
+																									"name": {
+																										"value": "",
+																										"excluded": true
+																									},
+																									"index": {
+																										"value": "1",
+																										"excluded": true
+																									}
+																								}
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": "16683dc4-1615-4714-b309-796c2d017dac",
+					"name": "login",
+					"filePath": "c6e16160-8e8a-484b-8e7a-fd3b7d5750fd.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowIcon"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "千牛登录"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "",
+												"excluded": true
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "pane"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "Qt5152QWindowIcon"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "千牛工作台"
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "",
+														"excluded": true
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "pane"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Qt5152QWindowIcon"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "登录"
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "",
+																"excluded": true
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "pane"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "Qt5152QWindowIcon"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "千牛工作台"
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "pane"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "Qt5152QWindowIcon"
+																	},
+																	"controlMetaType": "Uia",
+																	"name": {
+																		"value": "千牛工作台"
+																	},
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "",
+																				"excluded": true
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "window"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "AuthSDKMainUI"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "",
+																				"excluded": true
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "",
+																						"excluded": true
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "window"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "",
+																						"excluded": true
+																					},
+																					"controlMetaType": "Uia",
+																					"name": {
+																						"value": "MainUIContainer"
+																					},
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "",
+																								"excluded": true
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "button"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "",
+																								"excluded": true
+																							},
+																							"controlMetaType": "Uia",
+																							"name": {
+																								"value": "登 录"
+																							},
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						}
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": "f6da80ce-32c6-40dd-b5d6-d51594231a17",
+					"name": "setting_in",
+					"filePath": "152a870b-a448-4e09-b83a-cbce7f1bb09b.jpg",
+					"imageFilePath": "2397d400-7f53-4c81-be9a-a951157571b7.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowIcon"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "teatap:小俞-千牛工作台"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"filePath": {
+												"value": "2fc2ca05-2f80-4806-93c0-999225912adf.jpg"
+											},
+											"accuracy": {
+												"value": "0.75"
+											},
+											"matchIndex": {
+												"value": "0"
+											},
+											"timeout": {
+												"value": "5000"
+											},
+											"method": {
+												"value": "inRegionHighestAccuracy"
+											},
+											"selectionRect": {
+												"value": "1390,97,18,18"
+											},
+											"elementRect": {
+												"value": "141,83,1381,895"
+											},
+											"dpi": {
+												"value": "96"
+											},
+											"controlMetaType": "Image"
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": "997baa21-2bda-4d2d-af22-4ff15d0d76e4",
+					"name": "setting_button",
+					"filePath": "65bc5d57-a5d7-4dca-b0ac-736a3bd093fc.jpg",
+					"imageFilePath": "1122b7c3-b1b0-455c-a271-86d6df7392ff.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "pane"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowPopupSaveBits"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "千牛工作台"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"filePath": {
+												"value": "1122b7c3-b1b0-455c-a271-86d6df7392ff.jpg"
+											},
+											"accuracy": {
+												"value": "0.75"
+											},
+											"matchIndex": {
+												"value": "0"
+											},
+											"timeout": {
+												"value": "5000"
+											},
+											"method": {
+												"value": "inRegionHighestAccuracy"
+											},
+											"selectionRect": {
+												"value": "1395,133,92,25"
+											},
+											"elementRect": {
+												"value": "1378,116,130,242"
+											},
+											"dpi": {
+												"value": "96"
+											},
+											"controlMetaType": "Image"
+										}
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"id": "6f77cac4-f907-456f-8684-77252681e03c",
+					"name": "setting_menu",
+					"filePath": "6ead7062-b61e-4c34-8133-8a873490f1b1.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "pane"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowPopupSaveBits"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "千牛工作台"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "0e7b83e4-313b-4170-b680-2966369a5050",
+					"name": "auxiliary",
+					"filePath": "f308c90f-f88d-4cc9-87d3-9405deaec07f.jpg",
+					"imageFilePath": "12daebee-2ac7-4deb-82c3-24d2f1558bcc.jpg",
+					"content": {
+						"automationType": "Uia",
+						"processName": {
+							"value": "AliWorkbench"
+						},
+						"filePath": {
+							"value": "AliWorkbench.exe"
+						},
+						"version": {
+							"value": "1.3"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "Qt5152QWindowIcon"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "teatap:小俞-千牛工作台"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"filePath": {
+												"value": "12daebee-2ac7-4deb-82c3-24d2f1558bcc.jpg"
+											},
+											"accuracy": {
+												"value": "0.75"
+											},
+											"matchIndex": {
+												"value": "0"
+											},
+											"timeout": {
+												"value": "5000"
+											},
+											"method": {
+												"value": "inRegionHighestAccuracy"
+											},
+											"selectionRect": {
+												"value": "371,505,119,43"
+											},
+											"elementRect": {
+												"value": "255,77,1381,895"
+											},
+											"dpi": {
+												"value": "96"
+											},
+											"controlMetaType": "Image"
+										}
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"locators": []
+}
